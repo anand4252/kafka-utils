@@ -31,7 +31,7 @@ public class KafkaController {
     public String produceEmployee(@PathVariable String topic, @RequestParam(required = false) Integer partition,
                                   @RequestParam(required = false) String key) {
         final Employee employee = Employee.builder()
-                .name("cutes")
+                .name("Anand")
                 .age(6)
                 .address(Address.builder()
                         .city("chennai")
